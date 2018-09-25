@@ -34,11 +34,16 @@ int main()
     diaSemana = martes;
     if(diaSemana != martes){
 
-        printf("hoy no es martes!");
+        printf("hoy no es martes\n\n!");
     }
     else{
 
-        printf("hoy si es martes");
+        printf("hoy si es martes\n\n");
     }
+
+    /**< para probar la funcion de punteros */
+    //printf("%d\n\n", prueba());
+    /**< para probar la funcion de arrays */
+    prueba_arrays();
     return 0;
 }
