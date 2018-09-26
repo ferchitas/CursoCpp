@@ -1,23 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <limits.h>
+#include "enums.h"
 
 #define flotante float
 #define entero int
 #define devolver return
 #define empezar {
 #define terminar }
-
-//enumeramos los dias de la semana
-enum dia {lunes, martes, miercoles} diaSemana;
-enum mes {enero, febrero, marzo};
-
-struct alumno{
-
-    unsigned long telefono;
-    unsigned char edad;
-    char nombre[31];
-    float notas[5];
-} alu;
 
 //funcion que calcula el triple y con los define hace
 entero triple(flotante numero){
@@ -33,22 +23,39 @@ int funcionTernario(){
     return (2<3)?0:1;
 }
 
+int menorDesde(int numeros[], int posicion, int tamanyo){
+
+    int minimo = INT_MAX;
+    for(int i = posicion; i < tamanyo; i++){
+
+        if(numeros[i] <= minimo){
+
+            minimo = numeros[i];
+            numeros[i] = numeros[posicion];
+            numeros[posicion] = minimo;
+        }
+    }
+}
+
+void ordenarMenor(){
+
+    int numeros[] = {1,3,2,5,8,2,4,6,8,0};
+    int tamanyo = sizeof(numeros)/sizeof(numeros[0]);
+    for(int i = 0; i < tamanyo; i++){
+
+        menorDesde(numeros, i, tamanyo);
+    }
+    for(int i = 0; i < tamanyo; i  ++){
+
+        printf("%d", numeros[i]);
+    }
+}
+
 int main()
 {
     char opcion = 1;
     printf("%i\n\n", triple(3));
     printf("%i\n\n", funcionTernario());
-    printf("%d\n\n", lunes);
-
-    diaSemana = martes;
-    if(diaSemana != martes){
-
-        printf("hoy no es martes\n\n!");
-    }
-    else{
-
-        printf("hoy si es martes\n\n");
-    }
 
     /**< para probar la funcion de punteros */
     //printf("%d\n\n", prueba());
@@ -71,9 +78,9 @@ int main()
         opcion = menu();
     }*/
 
-    alu.edad = 25;
-    alu.telefono = 666666666;
+    //probarEnumerados();
+    //probarEnumAlumnos();
+    ordenarMenor();
 
-    printf("%d", alu.edad);
     return 0;
 }
