@@ -23,13 +23,12 @@ int funcionTernario(){
     return (2<3)?0:1;
 }
 
-            minimo = numeros[i];
 
 int main()
 {
-    char opcion = 1;
-    printf("%i\n\n", triple(3));
-    printf("%i\n\n", funcionTernario());
+    ///char opcion = 1;
+    ///printf("%i\n\n", triple(3));
+    ///printf("%i\n\n", funcionTernario());
 
     /**< para probar la funcion de punteros */
     //printf("%d\n\n", prueba());
@@ -55,6 +54,7 @@ int main()
     //probarEnumerados();
     //probarEnumAlumnos();
 
+    ejemploCadenas();
 
     return 0;
 }

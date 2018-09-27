@@ -31,9 +31,19 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="aldosStyle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="burbuja.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="inserccion.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="tipos.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

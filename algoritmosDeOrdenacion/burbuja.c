@@ -20,12 +20,14 @@ void intercambiarPosicionesArray(ptr_int array, int posicion1, int posicion2){
 void burbuja(int *array, int tamanyo){
 
     bool cambiado;
+    int contadorVueltas = 0;
     do{
         cambiado = false;
         for(int i = 0; i < tamanyo; i++){
 
             if(array[i] > array[i + 1]){
 
+                contadorVueltas++;
                 //intercambiar(&array[i], array + i + 1);
                 intercambiarPosicionesArray(array, i, i + 1);
                 cambiado = true;
@@ -34,4 +36,5 @@ void burbuja(int *array, int tamanyo){
         tamanyo--;
 
     }while(cambiado);
+    printf("\nvueltas: %i\n", contadorVueltas);
 }
