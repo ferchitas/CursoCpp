@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <limits.h>
 #include "enums.h"
+#include "operacionesDeBits.h""
 
 #define flotante float
 #define entero int
@@ -54,7 +55,13 @@ int main()
     //probarEnumerados();
     //probarEnumAlumnos();
 
-    ejemploCadenas();
+    //ejemploCadenas();
+
+    //probando_I_O();
+
+    //escribirEnFichero();
+
+    ejemplos_op_bits();
 
     return 0;
 }

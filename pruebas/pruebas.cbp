@@ -37,10 +37,16 @@
 		<Unit filename="cadenas.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="ficheros.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="punteros.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scanf_prueba.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="sentencias.c">

@@ -1,0 +1,1 @@
+Entero: 432, davel: 432.000000, cadena: tre
