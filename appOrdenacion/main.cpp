@@ -11,10 +11,8 @@ extern "C" {
 
 int main()
 {
-    int numeros[] = {1, 3, 2, 5, -8, 2, 4, 0, 8};
-    int tamanyo = sizeof(numeros)/sizeof(numeros[0]);
-    burbuja(numeros, tamanyo);
-    cout << "Algoritmo de ordenacion:\n" << endl;
+    cout << "Programa de algoritmos de ordenacion:\n" << endl;
+    switch
     return 0;
 }
 

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\estadosGestorDeDatos">
+      <UniqueIdentifier>{27aaa2dc-039c-4dbb-bf31-cd1811943883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\estadosGestorDeDatos">
+      <UniqueIdentifier>{498954bd-8883-4398-a218-b5ab1b287204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\algoritmos">
+      <UniqueIdentifier>{d7737661-db32-4ce4-b85e-9b0b832e9cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\ficherosC">
+      <UniqueIdentifier>{73005d6e-879c-4074-8e74-51d2ef700244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\cabecerasC">
+      <UniqueIdentifier>{e01b5c68-f68d-4c65-87c6-c2630c97dc0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\algoritmos">
+      <UniqueIdentifier>{6535c040-acd6-4f50-a777-7328058acfc0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="tipos.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GestorDeDatos.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="ConDatos.h">
+      <Filter>Archivos de encabezado\estadosGestorDeDatos</Filter>
+    </ClInclude>
+    <ClInclude Include="Estado.h">
+      <Filter>Archivos de encabezado\estadosGestorDeDatos</Filter>
+    </ClInclude>
+    <ClInclude Include="SinDatos.h">
+      <Filter>Archivos de encabezado\estadosGestorDeDatos</Filter>
+    </ClInclude>
+    <ClInclude Include="aldoStylCe.h">
+      <Filter>Archivos de encabezado\cabecerasC</Filter>
+    </ClInclude>
+    <ClInclude Include="burbujaC.h">
+      <Filter>Archivos de encabezado\cabecerasC</Filter>
+    </ClInclude>
+    <ClInclude Include="insercionC.h">
+      <Filter>Archivos de encabezado\cabecerasC</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgoritmoAldo.h">
+      <Filter>Archivos de encabezado\algoritmos</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgoritmoDeBusqueda.h">
+      <Filter>Archivos de encabezado\algoritmos</Filter>
+    </ClInclude>
+    <ClInclude Include="Burbuja.h">
+      <Filter>Archivos de encabezado\algoritmos</Filter>
+    </ClInclude>
+    <ClInclude Include="Insercion.h">
+      <Filter>Archivos de encabezado\algoritmos</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="appOrden.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="GestorDeDatos.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Estado.cpp">
+      <Filter>Archivos de origen\estadosGestorDeDatos</Filter>
+    </ClCompile>
+    <ClCompile Include="ConDatos.cpp">
+      <Filter>Archivos de origen\estadosGestorDeDatos</Filter>
+    </ClCompile>
+    <ClCompile Include="SinDatos.cpp">
+      <Filter>Archivos de origen\estadosGestorDeDatos</Filter>
+    </ClCompile>
+    <ClCompile Include="aldosStyle.c">
+      <Filter>Archivos de origen\ficherosC</Filter>
+    </ClCompile>
+    <ClCompile Include="burbuja.c">
+      <Filter>Archivos de origen\ficherosC</Filter>
+    </ClCompile>
+    <ClCompile Include="inserccion.c">
+      <Filter>Archivos de origen\ficherosC</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgoritmoAldo.cpp">
+      <Filter>Archivos de origen\algoritmos</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgoritmoDeBusqueda.cpp">
+      <Filter>Archivos de origen\algoritmos</Filter>
+    </ClCompile>
+    <ClCompile Include="Burbuja.cpp">
+      <Filter>Archivos de origen\algoritmos</Filter>
+    </ClCompile>
+    <ClCompile Include="Insercion.cpp">
+      <Filter>Archivos de origen\algoritmos</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
