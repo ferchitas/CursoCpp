@@ -3,7 +3,6 @@
 
 SinDatos::SinDatos()
 {
-	gestor = NULL;
 }
 
 
