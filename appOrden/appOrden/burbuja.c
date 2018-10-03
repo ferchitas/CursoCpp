@@ -1,5 +1,7 @@
-#include <stdio.h>
+#include "pch.h"
 #include <stdbool.h>
+
+#include "burbujaC.h"
 #include "tipos.h"
 
 void intercambiar(ptr_int x, ptr_int y){

@@ -37,12 +37,17 @@
 		<Unit filename="cadenas.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="enums.h" />
 		<Unit filename="ficheros.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="operacionesDeBits.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="operacionesDeBits.h" />
 		<Unit filename="punteros.c">
 			<Option compilerVar="CC" />
 		</Unit>
