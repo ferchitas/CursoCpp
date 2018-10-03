@@ -25,7 +25,7 @@ void burbuja(int *array, int tamanyo){
     int contadorVueltas = 0;
     do{
         cambiado = false;
-        for(int i = 0; i < tamanyo; i++){
+        for(int i = 0; i < tamanyo - 1; i++){
 
             if(array[i] > array[i + 1]){
 
