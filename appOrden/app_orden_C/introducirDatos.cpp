@@ -13,7 +13,7 @@ StArrayDatos * IntroDatos()
 		switch (op_elegida)
 		{
 		case 2:
-			arr = generadorArray(5);
+			arr = generadorArray(20);
 			mostrarArray(arr);
 		default:
 			break;
